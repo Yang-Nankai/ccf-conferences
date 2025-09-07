@@ -30,9 +30,7 @@ jobs:
         run: python generate.py
 
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v7
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./conference_htmls
-          # 可选：如果你希望使用自定义域名
-          # cname: 'yourdomain.com'
