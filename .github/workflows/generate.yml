@@ -6,6 +6,9 @@ on:
     - cron: '0 0 * * 1'
   workflow_dispatch: # 允许手动触发
 
+permissions:
+  contents: write   # ✅ 必须给 Actions 写权限
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
