@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>SIGIR 2024</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+</head>
+<body>
+<div class="conference-row" id="conference-row">
+    <div class="conference-info" id="conference-info">
+        Loading conference data...
+    </div>
+</div>
+<script>
+function renderCountdown(targetId, deadline) {
+    const el = document.getElementById(targetId);
+    function update() {
+        const now = new Date();
+        if (!deadline || deadline === 'TBD') return el.textContent = 'TBD';
+        const diff = new Date(deadline) - now;
+        if (diff <= 0) return el.textContent = 'Passed';
+        const days = Math.floor(diff / (1000*60*60*24));
+        const hours = Math.floor((diff / (1000*60*60)) % 24);
+        const minutes = Math.floor((diff / (1000*60)) % 60);
+        const seconds = Math.floor((diff / 1000) % 60);
+        el.textContent = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+    }
+    update();
+    setInterval(update, 1000);
+}
+
+(function() {
+    const abstractDeadline = "2024-01-19 23:59:59";
+    const submitDeadline = "2024-01-25 23:59:59";
+
+    document.getElementById('conference-info').innerHTML = `
+        <h3 class="conference-title">
+            <a href="https://dblp.uni-trier.de/db/conf/sigir" class="link">SIGIR</a> 2024 
+            <span class="tag">CCF A</span>
+        </h3>
+        <p class="conference-date">July 14-18, 2024 · Washington D.C., USA</p>
+        <p class="conference-desc">International Conference on Research on Development in Information Retrieval</p>
+        <div class="conference-tags">
+            <span class="note"><b>NOTE:</b> abstract deadline on 2024-01-19 23:59:59</span>
+        </div>
+        <div class="deadline-info">
+            <div class="deadline-dates">
+                <div class="deadline-item"><strong>Abstract Due:</strong> <span id="abstract-countdown">Loading...</span></div>
+                <div class="deadline-item"><strong>Submit Due:</strong> <span id="submit-countdown">Loading...</span></div>
+            </div>
+            <p class="deadline-text">Deadline: 2024-01-25 23:59:59</p>
+            <p class="website">Website: <a href="https://sigir-2024.github.io/index.html" class="link">https://sigir-2024.github.io/index.html</a></p>
+        </div>
+    `;
+
+    renderCountdown("abstract-countdown", abstractDeadline);
+    renderCountdown("submit-countdown", submitDeadline);
+})();
+</script>
+</body>
+</html>

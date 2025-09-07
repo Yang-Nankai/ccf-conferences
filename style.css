@@ -1,0 +1,26 @@
+
+.conference-row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    background: #f9fafc;
+    padding: 20px;
+    border: 1px solid #ebeef5;
+    border-radius: 10px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .08);
+    max-width: 600px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.conference-info, .deadline-info { width: 100%; text-align: left; }
+.conference-title { font-size: 22px; margin: 0 0 8px 0; color: #2c3e50; line-height: 1.3; }
+.conference-title .tag { background: #ecf5ff; border: 1px solid #d9ecff; color: #409eff; padding: 2px 8px; border-radius: 4px; font-size: 12px; margin-left: 8px; }
+.link { color: #409eff; text-decoration: none; border-bottom: 1px solid transparent; transition: border-color 0.2s; }
+.link:hover { border-color: #409eff; }
+.conference-date, .conference-desc { margin: 6px 0; font-size: 14px; color: #606266; }
+.conference-tags { margin: 8px 0; }
+.note { display: inline-block; color: #e67e22; font-size: 13px; }
+.deadline-dates { display: flex; gap: 16px; margin-bottom: 12px; }
+.deadline-item { font-size: 14px; font-weight: bold; color: #2c3e50; }
+.deadline-text, .website { margin: 6px 0; font-size: 14px; color: #606266; }
