@@ -33,14 +33,14 @@ function renderCountdown(targetId, deadline) {
 
 (function() {
     const abstractDeadline = "TBD";
-    const submitDeadline = "2025-10-13 23:59:59";
+    const submitDeadline = "2025-10-31 00:59:59";
 
     document.getElementById('conference-info').innerHTML = `
         <h3 class="conference-title">
             <a href="https://dblp.uni-trier.de/db/conf/icc" class="link">ICC</a> 2026 
             <span class="tag">CCF C</span>
         </h3>
-        <p class="conference-date">May 24-28, 2026 · Glasgow, Scotland</p>
+        <p class="conference-date">May 24-28, 2026 · Glasgow, Scotland, UK</p>
         <p class="conference-desc">IEEE International Conference on Communications</p>
         <div class="conference-tags">
             <span class="note"><b>NOTE:</b> abstract deadline on TBD</span>
@@ -50,7 +50,7 @@ function renderCountdown(targetId, deadline) {
                 <div class="deadline-item"><strong>Abstract Due:</strong> <span id="abstract-countdown">Loading...</span></div>
                 <div class="deadline-item"><strong>Submit Due:</strong> <span id="submit-countdown">Loading...</span></div>
             </div>
-            <p class="deadline-text">Deadline: 2025-10-13 23:59:59</p>
+            <p class="deadline-text">Deadline: 2025-10-31 00:59:59</p>
             <p class="website">Website: <a href="https://icc2026.ieee-icc.org" class="link">https://icc2026.ieee-icc.org</a></p>
         </div>
     `;

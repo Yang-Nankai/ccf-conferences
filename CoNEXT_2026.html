@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>PAM 2026</title>
+<title>CoNEXT 2026</title>
 <link rel="stylesheet" href="style.css">
 <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
 </head>
@@ -32,26 +32,26 @@ function renderCountdown(targetId, deadline) {
 }
 
 (function() {
-    const abstractDeadline = "TBD";
-    const submitDeadline = "2025-10-15 23:59:59";
+    const abstractDeadline = "2025-12-05 23:59:59";
+    const submitDeadline = "2025-12-12 23:59:59";
 
     document.getElementById('conference-info').innerHTML = `
         <h3 class="conference-title">
-            <a href="https://dblp.uni-trier.de/db/conf/pam" class="link">PAM</a> 2026 
-            <span class="tag">CCF C</span>
+            <a href="https://dblp.uni-trier.de/db/conf/conext" class="link">CoNEXT</a> 2026 
+            <span class="tag">CCF B</span>
         </h3>
-        <p class="conference-date">March 23-25, 2026 · Virtual</p>
-        <p class="conference-desc">Passive and Active Measurement Conference</p>
+        <p class="conference-date">December 7-10, 2026 · Utrecht, The Netherlands</p>
+        <p class="conference-desc">International Conference on Emerging Networking Experiments and Technologies</p>
         <div class="conference-tags">
-            <span class="note"><b>NOTE:</b> abstract deadline on TBD</span>
+            <span class="note"><b>NOTE:</b> abstract deadline on 2025-12-05 23:59:59</span>
         </div>
         <div class="deadline-info">
             <div class="deadline-dates">
                 <div class="deadline-item"><strong>Abstract Due:</strong> <span id="abstract-countdown">Loading...</span></div>
                 <div class="deadline-item"><strong>Submit Due:</strong> <span id="submit-countdown">Loading...</span></div>
             </div>
-            <p class="deadline-text">Deadline: 2025-10-15 23:59:59</p>
-            <p class="website">Website: <a href="https://pam2026.at/" class="link">https://pam2026.at/</a></p>
+            <p class="deadline-text">Deadline: 2025-12-12 23:59:59</p>
+            <p class="website">Website: <a href="https://conferences.sigcomm.org/co-next/2026/#!/home" class="link">https://conferences.sigcomm.org/co-next/2026/#!/home</a></p>
         </div>
     `;
 
