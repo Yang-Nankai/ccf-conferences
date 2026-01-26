@@ -32,8 +32,8 @@ function renderCountdown(targetId, deadline) {
 }
 
 (function() {
-    const abstractDeadline = "TBD";
-    const submitDeadline = "TBD";
+    const abstractDeadline = "2026-03-05 23:59:59";
+    const submitDeadline = "2026-03-12 23:59:59";
 
     document.getElementById('conference-info').innerHTML = `
         <h3 class="conference-title">
@@ -43,14 +43,14 @@ function renderCountdown(targetId, deadline) {
         <p class="conference-date">September 7-11, 2026 · Naples, Italy</p>
         <p class="conference-desc">European Conference on Machine Learning and 25th Principles and Practice of Knowledge Discovery in Databases</p>
         <div class="conference-tags">
-            <span class="note"><b>NOTE:</b> abstract deadline on TBD</span>
+            <span class="note"><b>NOTE:</b> abstract deadline on 2026-03-05 23:59:59</span>
         </div>
         <div class="deadline-info">
             <div class="deadline-dates">
                 <div class="deadline-item"><strong>Abstract Due:</strong> <span id="abstract-countdown">Loading...</span></div>
                 <div class="deadline-item"><strong>Submit Due:</strong> <span id="submit-countdown">Loading...</span></div>
             </div>
-            <p class="deadline-text">Deadline: TBD</p>
+            <p class="deadline-text">Deadline: 2026-03-12 23:59:59</p>
             <p class="website">Website: <a href="https://ecmlpkdd.org/2026/" class="link">https://ecmlpkdd.org/2026/</a></p>
         </div>
     `;
