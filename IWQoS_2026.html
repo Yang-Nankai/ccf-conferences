@@ -32,25 +32,25 @@ function renderCountdown(targetId, deadline) {
 }
 
 (function() {
-    const abstractDeadline = "2026-02-02 23:59:59";
-    const submitDeadline = "2026-02-09 23:59:59";
+    const abstractDeadline = "2026-02-16 23:59:59";
+    const submitDeadline = "2026-02-23 23:59:59";
 
     document.getElementById('conference-info').innerHTML = `
         <h3 class="conference-title">
             <a href="https://dblp.uni-trier.de/db/conf/iwqos" class="link">IWQoS</a> 2026 
             <span class="tag">CCF B</span>
         </h3>
-        <p class="conference-date">29 June - 2 July, 2026 · Dubai, United Arab Emirates</p>
+        <p class="conference-date">29 June - 2 July, 2026 · Istanbul, Türkiye</p>
         <p class="conference-desc">IEEE/ACM International Symposium on Quality of Service</p>
         <div class="conference-tags">
-            <span class="note"><b>NOTE:</b> abstract deadline on 2026-02-02 23:59:59</span>
+            <span class="note"><b>NOTE:</b> abstract deadline on 2026-02-16 23:59:59</span>
         </div>
         <div class="deadline-info">
             <div class="deadline-dates">
                 <div class="deadline-item"><strong>Abstract Due:</strong> <span id="abstract-countdown">Loading...</span></div>
                 <div class="deadline-item"><strong>Submit Due:</strong> <span id="submit-countdown">Loading...</span></div>
             </div>
-            <p class="deadline-text">Deadline: 2026-02-09 23:59:59</p>
+            <p class="deadline-text">Deadline: 2026-02-23 23:59:59</p>
             <p class="website">Website: <a href="https://iwqos2026.ieee-iwqos.org/" class="link">https://iwqos2026.ieee-iwqos.org/</a></p>
         </div>
     `;

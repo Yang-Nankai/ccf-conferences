@@ -32,8 +32,8 @@ function renderCountdown(targetId, deadline) {
 }
 
 (function() {
-    const abstractDeadline = "2025-12-05 23:59:59";
-    const submitDeadline = "2025-12-12 23:59:59";
+    const abstractDeadline = "2025-12-08 17:00:00";
+    const submitDeadline = "2025-12-15 17:00:00";
 
     document.getElementById('conference-info').innerHTML = `
         <h3 class="conference-title">
@@ -43,14 +43,14 @@ function renderCountdown(targetId, deadline) {
         <p class="conference-date">April 26-28, 2026 · Seoul, South Korea</p>
         <p class="conference-desc">International Symposium on Performance Analysis of Systems and Software</p>
         <div class="conference-tags">
-            <span class="note"><b>NOTE:</b> abstract deadline on 2025-12-05 23:59:59</span>
+            <span class="note"><b>NOTE:</b> abstract deadline on 2025-12-08 17:00:00</span>
         </div>
         <div class="deadline-info">
             <div class="deadline-dates">
                 <div class="deadline-item"><strong>Abstract Due:</strong> <span id="abstract-countdown">Loading...</span></div>
                 <div class="deadline-item"><strong>Submit Due:</strong> <span id="submit-countdown">Loading...</span></div>
             </div>
-            <p class="deadline-text">Deadline: 2025-12-12 23:59:59</p>
+            <p class="deadline-text">Deadline: 2025-12-15 17:00:00</p>
             <p class="website">Website: <a href="https://ispass.org/ispass2026/" class="link">https://ispass.org/ispass2026/</a></p>
         </div>
     `;
