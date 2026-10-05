@@ -32,25 +32,25 @@ function renderCountdown(targetId, deadline) {
 }
 
 (function() {
-    const abstractDeadline = "2025-12-15 23:59:59";
-    const submitDeadline = "2026-01-12 23:59:59";
+    const abstractDeadline = "2025-12-15 23:59:00";
+    const submitDeadline = "2026-01-14 23:59:00";
 
     document.getElementById('conference-info').innerHTML = `
         <h3 class="conference-title">
             <a href="https://dblp.uni-trier.de/db/conf/ets" class="link">ETS</a> 2026 
             <span class="tag">CCF C</span>
         </h3>
-        <p class="conference-date">May 25-29, 2026 · Chania, Greece</p>
+        <p class="conference-date">May 26-28, 2026 · Chania, Greece</p>
         <p class="conference-desc">IEEE European Test Symposium</p>
         <div class="conference-tags">
-            <span class="note"><b>NOTE:</b> abstract deadline on 2025-12-15 23:59:59</span>
+            <span class="note"><b>NOTE:</b> abstract deadline on 2025-12-15 23:59:00</span>
         </div>
         <div class="deadline-info">
             <div class="deadline-dates">
                 <div class="deadline-item"><strong>Abstract Due:</strong> <span id="abstract-countdown">Loading...</span></div>
                 <div class="deadline-item"><strong>Submit Due:</strong> <span id="submit-countdown">Loading...</span></div>
             </div>
-            <p class="deadline-text">Deadline: 2026-01-12 23:59:59</p>
+            <p class="deadline-text">Deadline: 2026-01-14 23:59:00</p>
             <p class="website">Website: <a href="https://ets2026.uniwa.gr/" class="link">https://ets2026.uniwa.gr/</a></p>
         </div>
     `;

@@ -32,25 +32,25 @@ function renderCountdown(targetId, deadline) {
 }
 
 (function() {
-    const abstractDeadline = "TBD";
-    const submitDeadline = "2021-11-16 23:59:59";
+    const abstractDeadline = "2021-11-16 23:59:00";
+    const submitDeadline = "2021-11-23 23:59:00";
 
     document.getElementById('conference-info').innerHTML = `
         <h3 class="conference-title">
             <a href="https://dblp.uni-trier.de/db/conf/isca" class="link">ISCA</a> 2022 
             <span class="tag">CCF A</span>
         </h3>
-        <p class="conference-date">June 11-15, 2022 · New York City, USA</p>
+        <p class="conference-date">June 19-22, 2022 · New York City, USA</p>
         <p class="conference-desc">International Symposium on Computer Architecture</p>
         <div class="conference-tags">
-            <span class="note"><b>NOTE:</b> abstract deadline on TBD</span>
+            <span class="note"><b>NOTE:</b> abstract deadline on 2021-11-16 23:59:00</span>
         </div>
         <div class="deadline-info">
             <div class="deadline-dates">
                 <div class="deadline-item"><strong>Abstract Due:</strong> <span id="abstract-countdown">Loading...</span></div>
                 <div class="deadline-item"><strong>Submit Due:</strong> <span id="submit-countdown">Loading...</span></div>
             </div>
-            <p class="deadline-text">Deadline: 2021-11-16 23:59:59</p>
+            <p class="deadline-text">Deadline: 2021-11-23 23:59:00</p>
             <p class="website">Website: <a href="https://www.iscaconf.org/isca2022/" class="link">https://www.iscaconf.org/isca2022/</a></p>
         </div>
     `;

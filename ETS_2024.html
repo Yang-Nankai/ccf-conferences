@@ -32,25 +32,25 @@ function renderCountdown(targetId, deadline) {
 }
 
 (function() {
-    const abstractDeadline = "2023-12-08 23:59:59";
-    const submitDeadline = "2023-12-16 23:59:59";
+    const abstractDeadline = "2023-12-15 23:59:00";
+    const submitDeadline = "2023-12-23 00:00:00";
 
     document.getElementById('conference-info').innerHTML = `
         <h3 class="conference-title">
             <a href="https://dblp.uni-trier.de/db/conf/ets" class="link">ETS</a> 2024 
             <span class="tag">CCF C</span>
         </h3>
-        <p class="conference-date">May 20-24, 2024 · The Hague, Netherlands</p>
+        <p class="conference-date">May 21-23, 2024 · The Hague, Netherlands</p>
         <p class="conference-desc">IEEE European Test Symposium</p>
         <div class="conference-tags">
-            <span class="note"><b>NOTE:</b> abstract deadline on 2023-12-08 23:59:59</span>
+            <span class="note"><b>NOTE:</b> abstract deadline on 2023-12-15 23:59:00</span>
         </div>
         <div class="deadline-info">
             <div class="deadline-dates">
                 <div class="deadline-item"><strong>Abstract Due:</strong> <span id="abstract-countdown">Loading...</span></div>
                 <div class="deadline-item"><strong>Submit Due:</strong> <span id="submit-countdown">Loading...</span></div>
             </div>
-            <p class="deadline-text">Deadline: 2023-12-16 23:59:59</p>
+            <p class="deadline-text">Deadline: 2023-12-23 00:00:00</p>
             <p class="website">Website: <a href="https://ets24.ewi.tudelft.nl/" class="link">https://ets24.ewi.tudelft.nl/</a></p>
         </div>
     `;

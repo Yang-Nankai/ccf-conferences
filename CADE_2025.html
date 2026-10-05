@@ -32,8 +32,8 @@ function renderCountdown(targetId, deadline) {
 }
 
 (function() {
-    const abstractDeadline = "2025-02-17 23:59:59";
-    const submitDeadline = "2025-02-24 23:59:59";
+    const abstractDeadline = "2025-02-17 23:59:00";
+    const submitDeadline = "2025-02-24 23:59:00";
 
     document.getElementById('conference-info').innerHTML = `
         <h3 class="conference-title">
@@ -43,14 +43,14 @@ function renderCountdown(targetId, deadline) {
         <p class="conference-date">July 28-31, 2025 · DHBW Stuttgart, Stuttgart, Germany</p>
         <p class="conference-desc">The Conference on Automated Deduction</p>
         <div class="conference-tags">
-            <span class="note"><b>NOTE:</b> abstract deadline on 2025-02-17 23:59:59</span>
+            <span class="note"><b>NOTE:</b> abstract deadline on 2025-02-17 23:59:00</span>
         </div>
         <div class="deadline-info">
             <div class="deadline-dates">
                 <div class="deadline-item"><strong>Abstract Due:</strong> <span id="abstract-countdown">Loading...</span></div>
                 <div class="deadline-item"><strong>Submit Due:</strong> <span id="submit-countdown">Loading...</span></div>
             </div>
-            <p class="deadline-text">Deadline: 2025-02-24 23:59:59</p>
+            <p class="deadline-text">Deadline: 2025-02-24 23:59:00</p>
             <p class="website">Website: <a href="https://www.dhbw-stuttgart.de/cade-30/" class="link">https://www.dhbw-stuttgart.de/cade-30/</a></p>
         </div>
     `;

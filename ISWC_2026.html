@@ -32,25 +32,25 @@ function renderCountdown(targetId, deadline) {
 }
 
 (function() {
-    const abstractDeadline = "2026-05-02 23:59:59";
-    const submitDeadline = "2026-05-07 23:59:59";
+    const abstractDeadline = "2026-04-11 23:59:00";
+    const submitDeadline = "2026-05-07 23:59:00";
 
     document.getElementById('conference-info').innerHTML = `
         <h3 class="conference-title">
             <a href="https://dblp.uni-trier.de/db/conf/semweb" class="link">ISWC</a> 2026 
             <span class="tag">CCF B</span>
         </h3>
-        <p class="conference-date">October 25-29, 2026 · Bari, Italy</p>
+        <p class="conference-date">October 27-29, 2026 · Bari, Italy</p>
         <p class="conference-desc">International Semantic Web Conference</p>
         <div class="conference-tags">
-            <span class="note"><b>NOTE:</b> abstract deadline on 2026-05-02 23:59:59</span>
+            <span class="note"><b>NOTE:</b> abstract deadline on 2026-04-11 23:59:00</span>
         </div>
         <div class="deadline-info">
             <div class="deadline-dates">
                 <div class="deadline-item"><strong>Abstract Due:</strong> <span id="abstract-countdown">Loading...</span></div>
                 <div class="deadline-item"><strong>Submit Due:</strong> <span id="submit-countdown">Loading...</span></div>
             </div>
-            <p class="deadline-text">Deadline: 2026-05-07 23:59:59</p>
+            <p class="deadline-text">Deadline: 2026-05-07 23:59:00</p>
             <p class="website">Website: <a href="https://iswc2026.semanticweb.org/" class="link">https://iswc2026.semanticweb.org/</a></p>
         </div>
     `;

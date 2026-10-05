@@ -32,25 +32,25 @@ function renderCountdown(targetId, deadline) {
 }
 
 (function() {
-    const abstractDeadline = "2022-05-27 23:59:00";
-    const submitDeadline = "2022-06-03 23:59:00";
+    const abstractDeadline = "2022-03-07 23:59:00";
+    const submitDeadline = "2022-03-11 23:59:00";
 
     document.getElementById('conference-info').innerHTML = `
         <h3 class="conference-title">
             <a href="https://dblp.uni-trier.de/db/conf/ismar" class="link">ISMAR</a> 2022 
             <span class="tag">CCF B</span>
         </h3>
-        <p class="conference-date">October 17-21, 2022 · Singapore</p>
+        <p class="conference-date">October 18-20, 2022 · Singapore (Hybrid)</p>
         <p class="conference-desc">International Symposium on Mixed and Augmented Reality</p>
         <div class="conference-tags">
-            <span class="note"><b>NOTE:</b> abstract deadline on 2022-05-27 23:59:00</span>
+            <span class="note"><b>NOTE:</b> abstract deadline on 2022-03-07 23:59:00</span>
         </div>
         <div class="deadline-info">
             <div class="deadline-dates">
                 <div class="deadline-item"><strong>Abstract Due:</strong> <span id="abstract-countdown">Loading...</span></div>
                 <div class="deadline-item"><strong>Submit Due:</strong> <span id="submit-countdown">Loading...</span></div>
             </div>
-            <p class="deadline-text">Deadline: 2022-06-03 23:59:00</p>
+            <p class="deadline-text">Deadline: 2022-03-11 23:59:00</p>
             <p class="website">Website: <a href="https://ismar2022.ismar.net/" class="link">https://ismar2022.ismar.net/</a></p>
         </div>
     `;

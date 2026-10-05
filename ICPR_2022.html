@@ -32,25 +32,25 @@ function renderCountdown(targetId, deadline) {
 }
 
 (function() {
-    const abstractDeadline = "TBD";
-    const submitDeadline = "TBD";
+    const abstractDeadline = "2022-01-17 23:59:00";
+    const submitDeadline = "2022-01-24 23:59:00";
 
     document.getElementById('conference-info').innerHTML = `
         <h3 class="conference-title">
             <a href="https://dblp.uni-trier.de/db/conf/icpr" class="link">ICPR</a> 2022 
             <span class="tag">CCF C</span>
         </h3>
-        <p class="conference-date">August 21-25, 2022 · Montreal, Canada and Online</p>
+        <p class="conference-date">August 22-25, 2022 · Montreal, Canada and Online</p>
         <p class="conference-desc">International Conference on Pattern Recognition</p>
         <div class="conference-tags">
-            <span class="note"><b>NOTE:</b> abstract deadline on TBD</span>
+            <span class="note"><b>NOTE:</b> abstract deadline on 2022-01-17 23:59:00</span>
         </div>
         <div class="deadline-info">
             <div class="deadline-dates">
                 <div class="deadline-item"><strong>Abstract Due:</strong> <span id="abstract-countdown">Loading...</span></div>
                 <div class="deadline-item"><strong>Submit Due:</strong> <span id="submit-countdown">Loading...</span></div>
             </div>
-            <p class="deadline-text">Deadline: TBD</p>
+            <p class="deadline-text">Deadline: 2022-01-24 23:59:00</p>
             <p class="website">Website: <a href="https://iapr.org/archives/icpr2022/index.html" class="link">https://iapr.org/archives/icpr2022/index.html</a></p>
         </div>
     `;

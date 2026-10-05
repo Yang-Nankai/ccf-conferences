@@ -32,25 +32,25 @@ function renderCountdown(targetId, deadline) {
 }
 
 (function() {
-    const abstractDeadline = "2026-04-18 23:59:59";
-    const submitDeadline = "2026-04-25 23:59:59";
+    const abstractDeadline = "2026-04-25 23:59:00";
+    const submitDeadline = "2026-05-02 23:59:00";
 
     document.getElementById('conference-info').innerHTML = `
         <h3 class="conference-title">
             <a href="https://dblp.uni-trier.de/db/conf/itc-asia" class="link">ITC-Asia</a> 2026 
             <span class="tag">CCF C</span>
         </h3>
-        <p class="conference-date">August 19-21, 2026 · Ningbo International Conference Center, Ningbo, China</p>
+        <p class="conference-date">August 20-21, 2026 · Ningbo Qianhu Hotel, Ningbo, China</p>
         <p class="conference-desc">IEEE International Test Conference in Asia</p>
         <div class="conference-tags">
-            <span class="note"><b>NOTE:</b> abstract deadline on 2026-04-18 23:59:59</span>
+            <span class="note"><b>NOTE:</b> abstract deadline on 2026-04-25 23:59:00</span>
         </div>
         <div class="deadline-info">
             <div class="deadline-dates">
                 <div class="deadline-item"><strong>Abstract Due:</strong> <span id="abstract-countdown">Loading...</span></div>
                 <div class="deadline-item"><strong>Submit Due:</strong> <span id="submit-countdown">Loading...</span></div>
             </div>
-            <p class="deadline-text">Deadline: 2026-04-25 23:59:59</p>
+            <p class="deadline-text">Deadline: 2026-05-02 23:59:00</p>
             <p class="website">Website: <a href="https://www.castest.com.cn/itcasia_2026" class="link">https://www.castest.com.cn/itcasia_2026</a></p>
         </div>
     `;

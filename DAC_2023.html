@@ -32,25 +32,25 @@ function renderCountdown(targetId, deadline) {
 }
 
 (function() {
-    const abstractDeadline = "TBD";
-    const submitDeadline = "2022-11-14 17:00:00";
+    const abstractDeadline = "2022-11-14 17:00:00";
+    const submitDeadline = "2022-11-21 17:00:00";
 
     document.getElementById('conference-info').innerHTML = `
         <h3 class="conference-title">
             <a href="https://dblp.uni-trier.de/db/conf/dac" class="link">DAC</a> 2023 
             <span class="tag">CCF A</span>
         </h3>
-        <p class="conference-date">July 9-13, 2023 · San Francisco, CA</p>
+        <p class="conference-date">July 10-13, 2023 · San Francisco, CA</p>
         <p class="conference-desc">Design Automation Conference</p>
         <div class="conference-tags">
-            <span class="note"><b>NOTE:</b> abstract deadline on TBD</span>
+            <span class="note"><b>NOTE:</b> abstract deadline on 2022-11-14 17:00:00</span>
         </div>
         <div class="deadline-info">
             <div class="deadline-dates">
                 <div class="deadline-item"><strong>Abstract Due:</strong> <span id="abstract-countdown">Loading...</span></div>
                 <div class="deadline-item"><strong>Submit Due:</strong> <span id="submit-countdown">Loading...</span></div>
             </div>
-            <p class="deadline-text">Deadline: 2022-11-14 17:00:00</p>
+            <p class="deadline-text">Deadline: 2022-11-21 17:00:00</p>
             <p class="website">Website: <a href="https://www.dac.com/Conference/2023-Call-for-Contributions" class="link">https://www.dac.com/Conference/2023-Call-for-Contributions</a></p>
         </div>
     `;

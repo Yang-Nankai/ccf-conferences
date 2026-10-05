@@ -32,25 +32,25 @@ function renderCountdown(targetId, deadline) {
 }
 
 (function() {
-    const abstractDeadline = "TBD";
-    const submitDeadline = "TBD";
+    const abstractDeadline = "2024-02-27 23:59:00";
+    const submitDeadline = "2024-03-05 23:59:00";
 
     document.getElementById('conference-info').innerHTML = `
         <h3 class="conference-title">
             <a href="https://dblp.uni-trier.de/db/conf/tase" class="link">TASE</a> 2024 
             <span class="tag">CCF C</span>
         </h3>
-        <p class="conference-date">July 29-August 1, 2024 · Guiyang, China</p>
+        <p class="conference-date">July 29-31, 2024 · Guiyang, China</p>
         <p class="conference-desc">Theoretical Aspects of Software Engineering</p>
         <div class="conference-tags">
-            <span class="note"><b>NOTE:</b> abstract deadline on TBD</span>
+            <span class="note"><b>NOTE:</b> abstract deadline on 2024-02-27 23:59:00</span>
         </div>
         <div class="deadline-info">
             <div class="deadline-dates">
                 <div class="deadline-item"><strong>Abstract Due:</strong> <span id="abstract-countdown">Loading...</span></div>
                 <div class="deadline-item"><strong>Submit Due:</strong> <span id="submit-countdown">Loading...</span></div>
             </div>
-            <p class="deadline-text">Deadline: TBD</p>
+            <p class="deadline-text">Deadline: 2024-03-05 23:59:00</p>
             <p class="website">Website: <a href="https://tase2024.github.io/index.html" class="link">https://tase2024.github.io/index.html</a></p>
         </div>
     `;

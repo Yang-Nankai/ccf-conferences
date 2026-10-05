@@ -32,25 +32,25 @@ function renderCountdown(targetId, deadline) {
 }
 
 (function() {
-    const abstractDeadline = "2022-03-04 23:59:59";
-    const submitDeadline = "2022-03-11 23:59:59";
+    const abstractDeadline = "2022-03-05 06:59:59";
+    const submitDeadline = "TBD";
 
     document.getElementById('conference-info').innerHTML = `
         <h3 class="conference-title">
             <a href="https://dblp.uni-trier.de/db/conf/mobihoc" class="link">MobiHoc</a> 2022 
             <span class="tag">CCF B</span>
         </h3>
-        <p class="conference-date">October 17-22, 2022 · Seoul, South Korea</p>
+        <p class="conference-date">October 18-20, 2022 · Seoul, South Korea</p>
         <p class="conference-desc">International Symposium on Mobile Ad Hoc Networking and Computing</p>
         <div class="conference-tags">
-            <span class="note"><b>NOTE:</b> abstract deadline on 2022-03-04 23:59:59</span>
+            <span class="note"><b>NOTE:</b> abstract deadline on 2022-03-05 06:59:59</span>
         </div>
         <div class="deadline-info">
             <div class="deadline-dates">
                 <div class="deadline-item"><strong>Abstract Due:</strong> <span id="abstract-countdown">Loading...</span></div>
                 <div class="deadline-item"><strong>Submit Due:</strong> <span id="submit-countdown">Loading...</span></div>
             </div>
-            <p class="deadline-text">Deadline: 2022-03-11 23:59:59</p>
+            <p class="deadline-text">Deadline: TBD</p>
             <p class="website">Website: <a href="https://www.sigmobile.org/mobihoc/2022/" class="link">https://www.sigmobile.org/mobihoc/2022/</a></p>
         </div>
     `;

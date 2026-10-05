@@ -32,25 +32,25 @@ function renderCountdown(targetId, deadline) {
 }
 
 (function() {
-    const abstractDeadline = "2024-09-07 19:59:59";
-    const submitDeadline = "2024-09-14 19:59:59";
+    const abstractDeadline = "TBD";
+    const submitDeadline = "2024-10-25 23:59:00";
 
     document.getElementById('conference-info').innerHTML = `
         <h3 class="conference-title">
             <a href="https://dblp.uni-trier.de/db/conf/noms" class="link">NOMS</a> 2025 
             <span class="tag">CCF N</span>
         </h3>
-        <p class="conference-date">May 12-16, 2025 · Honolulu, HI, USA</p>
+        <p class="conference-date">May 13-15, 2025 · Honolulu, HI, USA</p>
         <p class="conference-desc">IEEE/IFIP Network Operations and Management Symposium</p>
         <div class="conference-tags">
-            <span class="note"><b>NOTE:</b> abstract deadline on 2024-09-07 19:59:59</span>
+            <span class="note"><b>NOTE:</b> abstract deadline on TBD</span>
         </div>
         <div class="deadline-info">
             <div class="deadline-dates">
                 <div class="deadline-item"><strong>Abstract Due:</strong> <span id="abstract-countdown">Loading...</span></div>
                 <div class="deadline-item"><strong>Submit Due:</strong> <span id="submit-countdown">Loading...</span></div>
             </div>
-            <p class="deadline-text">Deadline: 2024-09-14 19:59:59</p>
+            <p class="deadline-text">Deadline: 2024-10-25 23:59:00</p>
             <p class="website">Website: <a href="https://noms2025.ieee-noms.org/" class="link">https://noms2025.ieee-noms.org/</a></p>
         </div>
     `;
