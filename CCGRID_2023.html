@@ -32,8 +32,8 @@ function renderCountdown(targetId, deadline) {
 }
 
 (function() {
-    const abstractDeadline = "2022-12-05 23:59:00";
-    const submitDeadline = "2022-12-12 23:59:00";
+    const abstractDeadline = "2022-12-05 23:59:59";
+    const submitDeadline = "2022-12-12 23:59:59";
 
     document.getElementById('conference-info').innerHTML = `
         <h3 class="conference-title">
@@ -43,14 +43,14 @@ function renderCountdown(targetId, deadline) {
         <p class="conference-date">May 1-4, 2023 · Bangalore, India</p>
         <p class="conference-desc">IEEE International Symposium on Cluster, Cloud and Internet Computing</p>
         <div class="conference-tags">
-            <span class="note"><b>NOTE:</b> abstract deadline on 2022-12-05 23:59:00</span>
+            <span class="note"><b>NOTE:</b> abstract deadline on 2022-12-05 23:59:59</span>
         </div>
         <div class="deadline-info">
             <div class="deadline-dates">
                 <div class="deadline-item"><strong>Abstract Due:</strong> <span id="abstract-countdown">Loading...</span></div>
                 <div class="deadline-item"><strong>Submit Due:</strong> <span id="submit-countdown">Loading...</span></div>
             </div>
-            <p class="deadline-text">Deadline: 2022-12-12 23:59:00</p>
+            <p class="deadline-text">Deadline: 2022-12-12 23:59:59</p>
             <p class="website">Website: <a href="https://ccgrid2023.iisc.ac.in/" class="link">https://ccgrid2023.iisc.ac.in/</a></p>
         </div>
     `;

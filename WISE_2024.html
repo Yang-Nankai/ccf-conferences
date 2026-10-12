@@ -32,8 +32,8 @@ function renderCountdown(targetId, deadline) {
 }
 
 (function() {
-    const abstractDeadline = "2024-06-30 23:59:00";
-    const submitDeadline = "2024-07-15 23:59:00";
+    const abstractDeadline = "2024-06-30 23:59:59";
+    const submitDeadline = "2024-07-15 23:59:59";
 
     document.getElementById('conference-info').innerHTML = `
         <h3 class="conference-title">
@@ -43,14 +43,14 @@ function renderCountdown(targetId, deadline) {
         <p class="conference-date">December 2-5, 2024 · Doha, Qatar</p>
         <p class="conference-desc">International Conference on Web Information Systems Engineering</p>
         <div class="conference-tags">
-            <span class="note"><b>NOTE:</b> abstract deadline on 2024-06-30 23:59:00</span>
+            <span class="note"><b>NOTE:</b> abstract deadline on 2024-06-30 23:59:59</span>
         </div>
         <div class="deadline-info">
             <div class="deadline-dates">
                 <div class="deadline-item"><strong>Abstract Due:</strong> <span id="abstract-countdown">Loading...</span></div>
                 <div class="deadline-item"><strong>Submit Due:</strong> <span id="submit-countdown">Loading...</span></div>
             </div>
-            <p class="deadline-text">Deadline: 2024-07-15 23:59:00</p>
+            <p class="deadline-text">Deadline: 2024-07-15 23:59:59</p>
             <p class="website">Website: <a href="https://web.archive.org/web/20241206053713/https://wise2024-qatar.com/" class="link">https://web.archive.org/web/20241206053713/https://wise2024-qatar.com/</a></p>
         </div>
     `;
