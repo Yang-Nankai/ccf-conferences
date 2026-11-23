@@ -32,8 +32,8 @@ function renderCountdown(targetId, deadline) {
 }
 
 (function() {
-    const abstractDeadline = "2026-11-27 23:59:59";
-    const submitDeadline = "2026-12-04 23:59:59";
+    const abstractDeadline = "2026-11-27 23:59:00";
+    const submitDeadline = "2026-12-04 23:59:00";
 
     document.getElementById('conference-info').innerHTML = `
         <h3 class="conference-title">
@@ -43,14 +43,14 @@ function renderCountdown(targetId, deadline) {
         <p class="conference-date">December 6-9, 2027 (To be confirmed) · Rio de Janeiro, Brazil</p>
         <p class="conference-desc">International Conference on Emerging Networking Experiments and Technologies</p>
         <div class="conference-tags">
-            <span class="note"><b>NOTE:</b> abstract deadline on 2026-11-27 23:59:59</span>
+            <span class="note"><b>NOTE:</b> abstract deadline on 2026-11-27 23:59:00</span>
         </div>
         <div class="deadline-info">
             <div class="deadline-dates">
                 <div class="deadline-item"><strong>Abstract Due:</strong> <span id="abstract-countdown">Loading...</span></div>
                 <div class="deadline-item"><strong>Submit Due:</strong> <span id="submit-countdown">Loading...</span></div>
             </div>
-            <p class="deadline-text">Deadline: 2026-12-04 23:59:59</p>
+            <p class="deadline-text">Deadline: 2026-12-04 23:59:00</p>
             <p class="website">Website: <a href="https://conferences.sigcomm.org/co-next/2027/#!/home" class="link">https://conferences.sigcomm.org/co-next/2027/#!/home</a></p>
         </div>
     `;
